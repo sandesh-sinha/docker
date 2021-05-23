@@ -63,7 +63,7 @@ mongoose.connect(mongoURL, {
     console.log("didnt connected")
     console.log(e);
 })
-app.get('/api/vi/', (req,res)=>{
+app.get('/api/v1/', (req,res)=>{
     console.log("fulfilled  request");
     return res.send("<h1>New app hello!!<h1>");
 })
