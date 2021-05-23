@@ -17,4 +17,4 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
   nginx:
     ports:
-      - "80:80"
+      - "81:80"
